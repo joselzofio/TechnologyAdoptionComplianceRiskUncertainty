@@ -4,9 +4,9 @@ Version 4.0.0
 
 This set of two MATLAB scripts calculates the investment thresholds, along with optimal emission and violation levels from the simulations reported in Arguedas, C., Peinado, F., and Zofío, J.L. (2026) "Incentives for Green Technology Adoption and Compliance under Risk Aversion and Technological Uncertainty", Resource and Energy Economics, Environmental and Resource Economics, 89(6), art. nº 6.
 
-The first script (1.Tech_Adoption_Compliance_Risk_with_Tech_Certainty_10_10_2025.m) implements the simulations of the baseline model reported in section 4.2 of the article without technological uncertainty about the new technology.
+The first script (1.Technology_Adoption_Compliance_Risk_with_Tech_Certainty_10_10_2025.m) implements the simulations of the baseline model reported in section 4.2 of the article without technological uncertainty about the new technology.
 
-The second script (Tech_Adoption_Compliance_Risk_with_Tech_Uncertainty_10_10_2025.m) implements the simulations reported in section 4.2 of the article enhancing the baseline model with technological uncertainty about the efficiency of the new technology, which may have either higher or lower abatement costs than the old technology.   
+The second script (2.Technology_Adoption_Compliance_Risk_with_Tech_Uncertainty_10_10_2025.m) implements the simulations reported in section 4.2 of the article enhancing the baseline model with technological uncertainty about the efficiency of the new technology, which may have either higher or lower abatement costs than the old technology.   
 
 Both scripts have been run in version R2024b of MATLAB and use the function 'vpasolve' from the Symbolic Math Toolbox to determine optimal emissions. For the case of technological certainty and partial technological uncertainty see equation (2) of the article, minimizing firms' expected disutility in terms of compliance and non-compliance (equation (1)).  
 
